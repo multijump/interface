@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: ro_RO\n"
 "Language-Team: Romanian\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Vezi pe Explorer)"
@@ -43,6 +39,10 @@ msgstr "(elimină tot)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(editează)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "Gestionează"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "Gestionează Lichiditatea în Grupul de Recompense"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "Gestionează Lista de Jetoane"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "Gestionează acest grup."
@@ -2042,7 +2038,7 @@ msgid "To (at least)"
 msgstr "La (cel puțin)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
+msgid "Token name"
 msgstr "Nume simbol"
 
 #: src/components/SearchModal/BlockedToken.tsx
@@ -2060,7 +2056,6 @@ msgstr "Jetoane"
 msgid "Top pools"
 msgstr "Grupuri de top"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Top tokens pe Uniswap"

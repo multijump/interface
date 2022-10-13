@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: ko_KR\n"
 "Language-Team: Korean\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Explorer에서 보기)"
@@ -43,6 +39,10 @@ msgstr "(모두 지우기)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(편집)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "관리"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "보상 풀에서 유동성 관리"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "토큰 목록 관리"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "이 풀을 관리합니다."
@@ -2042,7 +2038,7 @@ msgid "To (at least)"
 msgstr "스왑 후(최소)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
+msgid "Token name"
 msgstr "토큰 이름"
 
 #: src/components/SearchModal/BlockedToken.tsx
@@ -2060,7 +2056,6 @@ msgstr "토큰"
 msgid "Top pools"
 msgstr "상위 풀"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Uniswap의 인기 토큰"

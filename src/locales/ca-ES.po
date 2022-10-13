@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: ca_ES\n"
 "Language-Team: Catalan\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Veure a Explorer)"
@@ -43,6 +39,10 @@ msgstr "(esborra-ho tot)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(edita)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "Gestiona"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "Gestioneu la liquiditat al grup de recompenses"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "Gestiona les llistes de fitxes"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "Gestioneu aquest fons."
@@ -2042,7 +2038,7 @@ msgid "To (at least)"
 msgstr "A (com a mínim)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
+msgid "Token name"
 msgstr "Nom del testimoni"
 
 #: src/components/SearchModal/BlockedToken.tsx
@@ -2060,7 +2056,6 @@ msgstr "Fitxes"
 msgid "Top pools"
 msgstr "Grups principals"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Les fitxes principals d'Uniswap"

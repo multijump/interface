@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: zh_TW\n"
 "Language-Team: Chinese Traditional\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(在以太坊資源瀏覽器上查看)"
@@ -43,6 +39,10 @@ msgstr "(全部清除)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(編輯)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "管理"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "在獎勵池中管理流動資金"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "管理代幣列表"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "管理此流動池。"
@@ -2042,7 +2038,7 @@ msgid "To (at least)"
 msgstr "到（至少）"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
+msgid "Token name"
 msgstr "令牌名稱"
 
 #: src/components/SearchModal/BlockedToken.tsx
@@ -2060,7 +2056,6 @@ msgstr "代幣"
 msgid "Top pools"
 msgstr "較活躍的流動池"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Uniswap 上的熱門代幣"

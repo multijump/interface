@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: vi_VN\n"
 "Language-Team: Vietnamese\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Xem trên Explorer)"
@@ -43,6 +39,10 @@ msgstr "(xóa tất cả)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(chỉnh sửa)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "Quản lý"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "Quản lý tính thanh khoản trong Nhóm phần thưởng"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "Quản lý danh sách mã Token"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "Quản lý pool này."
@@ -2042,7 +2038,7 @@ msgid "To (at least)"
 msgstr "Đến (Ít nhất)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
+msgid "Token name"
 msgstr "Tên mã thông báo"
 
 #: src/components/SearchModal/BlockedToken.tsx
@@ -2060,7 +2056,6 @@ msgstr "Token"
 msgid "Top pools"
 msgstr "Pool hàng đầu"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Các mã thông báo hàng đầu trên Uniswap"

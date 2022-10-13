@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: ja_JP\n"
 "Language-Team: Japanese\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "（エクスプローラーで表示）"
@@ -43,6 +39,10 @@ msgstr "(すべてクリア)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(編集)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -57,11 +57,11 @@ msgstr "0 UNI / 週"
 
 #: src/components/Tokens/TokenDetails/StatsSection.tsx
 msgid "24H volume"
-msgstr "24時間ボリューム"
+msgstr "24時間出来高"
 
 #: src/components/Tokens/TokenDetails/StatsSection.tsx
 msgid "24H volume is the amount of the asset that has been traded on Uniswap v3 during the past 24 hours."
-msgstr "24 時間ボリュームは、過去 24 時間に Uniswap v3 で取引された資産の量です。"
+msgstr "24時間出来高とは、過去 24 時間に Uniswap v3 で取引された資産の金額です。"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "25%"
@@ -73,11 +73,11 @@ msgstr "50%"
 
 #: src/components/Tokens/TokenDetails/StatsSection.tsx
 msgid "52W high"
-msgstr "52W高"
+msgstr "52週高値"
 
 #: src/components/Tokens/TokenDetails/StatsSection.tsx
 msgid "52W low"
-msgstr "52W低"
+msgstr "52週安値"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "75%"
@@ -130,7 +130,7 @@ msgstr "提案を提出するには、UNIの総供給量の0.25％以上のUNI�
 
 #: src/components/swap/PriceImpactWarning.tsx
 msgid "A swap of this size may have a high price impact, given the current liquidity in the pool. There may be a large difference between the amount of your input token and what you will receive in the output token"
-msgstr "プールの現在の流動性を考えると、このサイズのスワップは価格に大きな影響を与える可能性があります。入力トークンの量と出力トークンで受け取る量には大きな違いがある可能性があります"
+msgstr "この規模のスワップは、現在のプールの流動性を考慮すると、価格に大きな影響を与える可能性があります。売るトークンの金額と買うトークンとして受け取る金額に大きな差が生じる可能性があります"
 
 #: src/components/Menu/index.tsx
 #: src/components/Tokens/TokenDetails/About.tsx
@@ -359,7 +359,7 @@ msgstr "ブロックされたアドレス"
 
 #: src/components/Header/NetworkSelector.tsx
 msgid "Blockscout"
-msgstr "ブロックスカウト"
+msgstr "Blockscout"
 
 #: src/components/Header/NetworkSelector.tsx
 msgid "Bridge"
@@ -605,7 +605,7 @@ msgstr "接続中..."
 
 #: src/components/Tokens/TokenDetails/AddressSection.tsx
 msgid "Contract address"
-msgstr "契約住所"
+msgstr "コントラクトアドレス"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 #: src/nft/components/profile/view/ProfileAccountDetails.tsx
@@ -687,7 +687,7 @@ msgstr "ダークテーマ"
 
 #: src/components/WalletDropdown/DefaultMenu.tsx
 msgid "Dark theme"
-msgstr "暗いテーマ"
+msgstr "ダークテーマ"
 
 #: src/pages/Vote/styled.tsx
 msgid "Defeated"
@@ -1114,7 +1114,7 @@ msgstr "流動性の提供について学ぶ"
 #: src/components/TokenSafety/TokenSafetyMessage.tsx
 #: src/components/TokenSafety/index.tsx
 msgid "Learn more"
-msgstr "より詳しく"
+msgstr "もっと詳しく知る"
 
 #: src/components/Menu/index.tsx
 #: src/components/NavBar/MenuDropdown.tsx
@@ -1185,10 +1185,6 @@ msgstr "管理"
 #: src/components/PositionCard/index.tsx
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "報酬プールで流動性を管理"
-
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "トークンリストを管理"
 
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
@@ -1428,7 +1424,7 @@ msgstr "イーサリアムのレイヤー1に接続してください"
 
 #: src/constants/tokenSafety.tsx
 msgid "Please do your own research before trading."
-msgstr "取引前に独自の調査を行ってください。"
+msgstr "取引を行う前にご自身でお調べ下さい。"
 
 #: src/components/Settings/index.tsx
 msgid "Please type the word \"{confirmWord}\" to enable expert mode."
@@ -1682,11 +1678,11 @@ msgstr "トークン名またはアドレス"
 
 #: src/components/NavBar/SearchBar.tsx
 msgid "Search tokens"
-msgstr "検索トークン"
+msgstr "トークンを検索"
 
 #: src/components/NavBar/SearchBar.tsx
 msgid "Search tokens and NFT collections"
-msgstr "検索トークンと NFT コレクション"
+msgstr "トークンとNFTコレクションを検索"
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "Select Pair"
@@ -2042,7 +2038,7 @@ msgid "To (at least)"
 msgstr "買うトークン（少なくとも）"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
+msgid "Token name"
 msgstr "トークン名"
 
 #: src/components/SearchModal/BlockedToken.tsx
@@ -2061,9 +2057,8 @@ msgid "Top pools"
 msgstr "上位のプール"
 
 #: src/pages/Tokens/index.tsx
-#: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
-msgstr "ユニスワップの上位トークン"
+msgstr "Uniswapの上位トークン"
 
 #: src/components/earn/PoolCard.tsx
 msgid "Total deposited"

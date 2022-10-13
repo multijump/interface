@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: sw_TZ\n"
 "Language-Team: Swahili, Tanzania\n"
@@ -28,10 +28,6 @@ msgstr "$ -"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Fungua kwa uchunguzi zaidi)"
@@ -43,6 +39,10 @@ msgstr "(futa zote)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(rekebisha)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "Simamia"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "Dhibiti Liquidity katika Dimbwi la Tuzo"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "Dhibiti Orodha za Ishara"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "Simamia dimbwi hili."
@@ -2042,8 +2038,8 @@ msgid "To (at least)"
 msgstr "Kwa (angalau)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
-msgstr "Jina la Ishara"
+msgid "Token name"
+msgstr "Jina la ishara"
 
 #: src/components/SearchModal/BlockedToken.tsx
 msgid "Token not supported"
@@ -2060,7 +2056,6 @@ msgstr "Ishara"
 msgid "Top pools"
 msgstr "Mabwawa ya juu"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Ishara kuu kwenye Uniswap"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: no_NO\n"
 "Language-Team: Norwegian\n"
@@ -28,10 +28,6 @@ msgstr "$-"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Vis på Explorer)"
@@ -43,6 +39,10 @@ msgstr "(fjern alle)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(rediger)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "Administrer"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "Behandle likviditet i belønningspott"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "Behandle pollettlister"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "Administrere denne reserven."
@@ -2042,8 +2038,8 @@ msgid "To (at least)"
 msgstr "Til (minst)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
-msgstr "Token navn"
+msgid "Token name"
+msgstr "Tokennavn"
 
 #: src/components/SearchModal/BlockedToken.tsx
 msgid "Token not supported"
@@ -2060,7 +2056,6 @@ msgstr "Polletter"
 msgid "Top pools"
 msgstr "Ledende potter"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Topp tokens på Uniswap"

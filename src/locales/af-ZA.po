@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-11 02:57\n"
+"PO-Revision-Date: 2022-10-13 19:09\n"
 "Last-Translator: \n"
 "Language: af_ZA\n"
 "Language-Team: Afrikaans\n"
@@ -28,10 +28,6 @@ msgstr "$ -"
 msgid "${0}"
 msgstr "${0}"
 
-#: src/components/swap/TradePrice.tsx
-msgid "(${0})"
-msgstr "(${0})"
-
 #: src/components/AddressInputPanel/index.tsx
 msgid "(View on Explorer)"
 msgstr "(Bekyk op Explorer)"
@@ -43,6 +39,10 @@ msgstr "(maak alles skoon)"
 #: src/pages/Vote/Landing.tsx
 msgid "(edit)"
 msgstr "(wysig)"
+
+#: src/components/swap/TradePrice.tsx
+msgid "({0})"
+msgstr "({0})"
 
 #: src/pages/Swap/index.tsx
 msgid "- Remove recipient"
@@ -1186,10 +1186,6 @@ msgstr "Bestuur"
 msgid "Manage Liquidity in Rewards Pool"
 msgstr "Bestuur likiditeit in die beloningspoel"
 
-#: src/components/SearchModal/CurrencySearch.tsx
-msgid "Manage Token Lists"
-msgstr "Bestuur tekenlyste"
-
 #: src/pages/PoolFinder/index.tsx
 msgid "Manage this pool."
 msgstr "Bestuur hierdie swembad."
@@ -2042,8 +2038,8 @@ msgid "To (at least)"
 msgstr "Aan (ten minste)"
 
 #: src/components/Tokens/TokenTable/TokenRow.tsx
-msgid "Token Name"
-msgstr "Token Naam"
+msgid "Token name"
+msgstr "Token naam"
 
 #: src/components/SearchModal/BlockedToken.tsx
 msgid "Token not supported"
@@ -2060,7 +2056,6 @@ msgstr "Tekens"
 msgid "Top pools"
 msgstr "Top poele"
 
-#: src/pages/Tokens/index.tsx
 #: src/pages/Tokens/index.tsx
 msgid "Top tokens on Uniswap"
 msgstr "Top tokens op Uniswap"
